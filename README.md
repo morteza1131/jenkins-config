@@ -11,6 +11,7 @@ You can:
 ```bash
 usage: jenkins_config.py [-h] --pass JENKINS_PASS [--server JENKINS_URL] [--user JENKINS_USER] [--list]
                          [--get scripts|configs|JOB_NAME] [--restore JOB_NAME|all] [--set JOB_NAME|all] [--git-url URL]
+                         [--git-cred-name URL] [--git-branch URL]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -23,6 +24,9 @@ optional arguments:
                         configs are store in "./job_configs/" and scripts are store in "./"
   --restore JOB_NAME|all
                         Restore config of job(s) from "./job_configs/JOB_NAME.xml"
-  --set JOB_NAME|all    Replace script config to git for job(s), --git-url requaired,example: set JOB_NAME"
+  --set JOB_NAME|all    Replace script config to git for job(s), --git-url, --git-cred-name and --git-branch are
+                        requaired,example: set JOB_NAME"
   --git-url URL         Url of git project to set for jenkins files"
+  --git-cred-name URL   Name of Jenkins credential created before for connection to git"
+  --git-branch URL      Git branch for GitSCM Jenkinsfile"
   ```
