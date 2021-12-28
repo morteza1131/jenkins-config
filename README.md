@@ -5,7 +5,7 @@ You can:
 - Get all jenkins jobs xml configuration
 - List all jenkins jobs
 - Change scripted pipeline to GitSCM pipeline
-- Store jenkins scripted pipeline script on disk and then use it as jenkins file for GitSCM pipeline config
+- Store jenkins scripted pipeline script on disk and then use it as Jenkinsfile for GitSCM pipeline config
 - Backeup jenkins jobs xml configuration
 
 ```bash
