@@ -18,8 +18,8 @@ parser.add_argument('--get',metavar='scripts|configs|JOB_NAME',help='Print compl
 parser.add_argument('--restore',metavar='JOB_NAME|all',help='Restore config of job(s) from "./job_configs/JOB_NAME.xml"')
 parser.add_argument('--set',metavar='JOB_NAME|all',help='Replace script config to git for job(s), --git-url, --git-cred-name and --git-branch are requaired,example: set JOB_NAME"')
 parser.add_argument('--git-url',metavar='URL',help='Url of git project to set for jenkins files"')
-parser.add_argument('--git-cred-name',metavar='URL',default='git_cred',help='Name of Jenkins credential created before for connection to git"')
-parser.add_argument('--git-branch',metavar='URL',default='master',help='Git branch for GitSCM Jenkinsfile"')
+parser.add_argument('--git-cred-name',metavar='CRED_NAME',default='git_cred',help='Name of Jenkins credential created before for connection to git"')
+parser.add_argument('--git-branch',metavar='BRANCH_NAME',default='master',help='Git branch for GitSCM Jenkinsfile"')
 args=parser.parse_args()
 args_vars=vars(parser.parse_args())
 
