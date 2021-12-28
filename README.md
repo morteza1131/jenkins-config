@@ -2,11 +2,12 @@
 
 You can:
 
-- Get all jenkins jobs xml configuration
-- List all jenkins jobs
+- Get all Jenkins jobs xml configuration
+- List all Jenkins jobs
 - Change scripted pipeline to GitSCM pipeline
-- Store jenkins scripted pipeline script on disk and then use it as Jenkinsfile for GitSCM pipeline config
-- Backeup jenkins jobs xml configuration
+- Store Jenkins scripted pipeline script on disk and then use it as Jenkinsfile for GitSCM pipeline config
+- Backeup Jenkins jobs xml configuration
+- Restore Jenkins jobs from xml configuration
 
 ```bash
 usage: jenkins_config.py [-h] --pass JENKINS_PASS --server JENKINS_URL [--user JENKINS_USER] [--list]
