@@ -25,10 +25,10 @@ optional arguments:
   --restore JOB_NAME|all
                         Restore config of job(s) from "./job_configs/JOB_NAME.xml"
   --set JOB_NAME|all    Replace script config to git for job(s), --git-url, --git-cred-name and --git-branch are
-                        requaired,example: set JOB_NAME"
-  --git-url URL         Url of git project to set for jenkins files"
+                        requaired,example: set JOB_NAME
+  --git-url URL         Url of git project to set for jenkins files
   --git-cred-name CRED_NAME
-                        Name of Jenkins credential created before for connection to git"
+                        Name of Jenkins credential created before for connection to git
   --git-branch BRANCH_NAME
-                        Git branch for GitSCM Jenkinsfile"
+                        Git branch for GitSCM Jenkinsfile
   ```
