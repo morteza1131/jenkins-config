@@ -16,7 +16,7 @@ usage: jenkins_config.py [-h] --pass JENKINS_PASS --server JENKINS_URL [--user J
 optional arguments:
   -h, --help            show this help message and exit
   --pass JENKINS_PASS   Jenkins Password!
-  --server JENKINS_URL  Jenkins URL(defualt: http://jenkins.example.com)
+  --server JENKINS_URL  Jenkins URL(http://jenkins.example.com)
   --user JENKINS_USER   Jenkins Username(defualt: root)
   --list                List all jenkins jobs!
   --get scripts|configs|JOB_NAME

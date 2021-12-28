@@ -11,7 +11,7 @@ import sys
 ## Help menu:
 parser=argparse.ArgumentParser()
 parser.add_argument('--pass',metavar='JENKINS_PASS',required=True, help='Jenkins Password!')
-parser.add_argument('--server',metavar='JENKINS_URL',required=True, help='Jenkins URL(defualt: http://jenkins.example.com)')
+parser.add_argument('--server',metavar='JENKINS_URL',required=True, help='Jenkins URL(http://jenkins.example.com)')
 parser.add_argument('--user',metavar='JENKINS_USER', default='root', help='Jenkins Username(defualt: root)')
 parser.add_argument('--list',action='store_true', help='List all jenkins jobs!')
 parser.add_argument('--get',metavar='scripts|configs|JOB_NAME',help='Print complete xml config of a job or store xml config or script section of all jobs on disk, configs are store in "./job_configs/" and scripts are store in "./"')
