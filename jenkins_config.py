@@ -16,7 +16,7 @@ parser.add_argument('--user',metavar='JENKINS_USER', default='root', help='Jenki
 parser.add_argument('--list',action='store_true', help='List all jenkins jobs!')
 parser.add_argument('--get',metavar='scripts|configs|JOB_NAME',help='Print complete xml config of a job or store xml config or script section of all jobs on disk, configs are store in "./job_configs/" and scripts are store in "./"')
 parser.add_argument('--restore',metavar='JOB_NAME|all',help='Restore config of job(s) from "./job_configs/JOB_NAME.xml"')
-parser.add_argument('--set',metavar='JOB_NAME|all',help='Replace script config to git for job(s), --git-url, --git-cred-name and --git-branch are requaired,example: set JOB_NAME')
+parser.add_argument('--set',metavar='JOB_NAME|all',help='Set using of GitSCM config instead of script for job(s), --git-url, --git-cred-name and --git-branch are requaired,example: set JOB_NAME')
 parser.add_argument('--git-url',metavar='URL',help='Url of git project to set for jenkins files')
 parser.add_argument('--git-cred-name',metavar='CRED_NAME',default='git_cred',help='Name of Jenkins credential created before for connection to git')
 parser.add_argument('--git-branch',metavar='BRANCH_NAME',default='master',help='Git branch for GitSCM Jenkinsfile')
