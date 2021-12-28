@@ -9,7 +9,7 @@ You can:
 - Backeup jenkins jobs xml configuration
 
 ```bash
-usage: jenkins_config.py [-h] --pass JENKINS_PASS [--server JENKINS_URL] [--user JENKINS_USER] [--list]
+usage: jenkins_config.py [-h] --pass JENKINS_PASS --server JENKINS_URL [--user JENKINS_USER] [--list]
                          [--get scripts|configs|JOB_NAME] [--restore JOB_NAME|all] [--set JOB_NAME|all] [--git-url URL]
                          [--git-cred-name CRED_NAME] [--git-branch BRANCH_NAME]
 
